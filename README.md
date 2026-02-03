@@ -48,7 +48,7 @@
 | Модель | Репозиторий | Описание |
 |--------|-------------|----------|
 | Сегментация | [MindForgeTim/building-segmentation](https://huggingface.co/MindForgeTim/building-segmentation) | UNet с ResNet-50 энкодером |
-| Детекция | [MindForgeTim/building-detection](https://huggingface.co/MindForgeTim/building-detection | Faster R-CNN с Feature Pyramid Network |
+| Детекция | [MindForgeTim/building-detection](https://huggingface.co/MindForgeTim/building-detection) | Faster R-CNN с Feature Pyramid Network |
 | GSD Estimation | [MindForgeTim/dls-gsd-model](https://huggingface.co/MindForgeTim/dls-gsd-model) | RegressionTreeCNN (ResNet-101) |
 
 ---
