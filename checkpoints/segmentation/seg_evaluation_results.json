@@ -1,0 +1,41 @@
+{
+  "model": "UNet-ResNet50",
+  "loss": "BCE(0.5) + Dice(0.5)",
+  "best_epoch": 30,
+  "best_val_iou": 0.7749017477035522,
+  "gsd_m_per_pixel": 0.3,
+  "metrics": {
+    "mean_iou": 0.73714151263237,
+    "mean_absolute_error_m2": 12401.409599999992,
+    "mape_percent": 6.128632160121725,
+    "total_gt_area_m2": 7758027.899999999,
+    "total_pred_area_m2": 7892631.899999999
+  },
+  "per_city": {
+    "austin": {
+      "iou": 0.7874324202537537,
+      "error_pct": 1.4231711715053559,
+      "num_images": 5
+    },
+    "chicago": {
+      "iou": 0.6975325226783753,
+      "error_pct": 7.551602800318757,
+      "num_images": 5
+    },
+    "kitsap": {
+      "iou": 0.6138341724872589,
+      "error_pct": 18.212716976159662,
+      "num_images": 5
+    },
+    "tyrol-w": {
+      "iou": 0.7949175834655762,
+      "error_pct": 1.355042265211111,
+      "num_images": 5
+    },
+    "vienna": {
+      "iou": 0.791990864276886,
+      "error_pct": 2.1006275874137335,
+      "num_images": 5
+    }
+  }
+}

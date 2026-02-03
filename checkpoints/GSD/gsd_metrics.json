@@ -1,0 +1,9 @@
+{
+  "mean_absolute_error": 50.43273162841797,
+  "median_absolute_error": 25.982017517089844,
+  "mean_relative_error": 46.08031463623047,
+  "median_relative_error": 29.79283905029297,
+  "rmse": 81.03089904785156,
+  "exponent_accuracy": 53.716931216931215,
+  "num_samples": 15120
+}

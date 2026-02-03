@@ -1,0 +1,17 @@
+# Hugging Face Spaces requirements
+# Python 3.12
+
+# Web UI
+gradio>=6.3.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=1.0.0
+
+# Model downloads
+huggingface-hub>=0.20.0
+
+# Image processing (headless for server deployment)
+opencv-python-headless>=4.8.0
+numpy>=1.24.0

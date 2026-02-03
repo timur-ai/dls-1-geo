@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# pytest
+.pytest_cache/
+
+# Linters / type checkers
+.ruff_cache/
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Model checkpoints (large files)
+checkpoints/**/.cache/
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+checkpoints/**/*.onnx
+checkpoints/**/*.safetensors
+
+# Keep checkpoint directory structure
+!checkpoints/.gitkeep
+!checkpoints/**/.gitkeep
+
+# Gradio
+flagged/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
