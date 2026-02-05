@@ -41,7 +41,7 @@
    - Наложение маски на исходное изображение
    - Площадь застройки (м²), процент покрытия, количество зданий
 
-**Веб-приложение на Hugging Face Spaces:** [MindForgeTim/dls-geo](https://huggingface.co/spaces/MindForgeTim/dls-geo)
+**Веб-приложение на Hugging Face Spaces:** [MindForgeTim/dls-geo](https://mindforgetim-dls-geo.hf.space)
 
 **Модели на HuggingFace Hub:**
 
